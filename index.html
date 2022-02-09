@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculador de Porcentagem</title>
+</head>
+<body>
+    <div>
+        <form>
+            <p>Preço Total: </p><input type="number" placeholder="Preço" id="dinheiro">
+            <p>% de Desconto:  </p><input type="number" placeholder="%Desconto" id="desconto">
+            <p>Valor a pagar: </p><input type="number" placeholder="Preço Descontado" id="total" value="0" readonly>
+        </form>
+            <button onclick="calculo()" id="calcular">CALCULAR</button>
+        </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
